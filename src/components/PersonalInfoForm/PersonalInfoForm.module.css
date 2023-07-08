@@ -1,0 +1,16 @@
+.input-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+}

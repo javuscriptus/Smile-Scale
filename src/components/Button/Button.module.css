@@ -1,0 +1,63 @@
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:disabled {
+  background-color: #999999;
+  cursor: not-allowed;
+}
+
+.button:disabled:hover {
+  background-color: #afafaf;
+}
+
+.button:hover {
+  background-color: #afafaf;
+}
+
+.submit {
+  background-color: #4caf50;
+}
+
+.submit:hover {
+  background-color: #66af68;
+}
+
+.info {
+  background-color: #4c5eaf;
+}
+
+.info:hover {
+  background-color: #7581b4;
+}
+
+.gradientBackground {
+  background: linear-gradient(-45deg, #ffc72c, #fef4d7, #faf8d1, #fef4d7);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 20px;
+  display: inline;
+  color: rgb(146, 146, 146) !important;
+  font-weight: bold;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

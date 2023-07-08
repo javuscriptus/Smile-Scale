@@ -1,0 +1,31 @@
+.form-container {
+  margin: 0;
+  margin-top: 15px;
+  min-width: 200px;
+  width: 600px;
+  max-width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.prediction-container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.prediction-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
